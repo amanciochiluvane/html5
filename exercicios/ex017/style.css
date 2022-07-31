@@ -1,0 +1,13 @@
+@charset "UTF-80";
+
+body{
+background-color: bisque;
+
+}
+h1#principal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.Brincadeiras{
+ background-color: aqua;
+}
