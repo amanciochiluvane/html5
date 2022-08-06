@@ -1,11 +1,22 @@
 @charset "UTF-8";
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+
 header{
+    padding-top:10px ;
     background-color: greenyellow;
     text-align: center;
+    padding-bottom: 10px;
 }
 div{
     float: left;
     margin-right: 20px;
+    height: 100vh;
+    background-color: aqua;
 }
 nav{
     display: inline-block;
@@ -14,6 +25,7 @@ nav{
     width: 10px;
 }
 footer{
-    bottom:0px;
+    text-align: center;
+    bottom: 0px;
     position: absolute;
 }
