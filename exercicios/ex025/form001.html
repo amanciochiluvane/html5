@@ -8,11 +8,13 @@
 </head>
 <body>
 <h1>My first form</h1>
-<form action="cadastro.php" method="post" autocomplete="off">
+<form action="cadastro.php" method="post" autocomplete="on">
     <p><label for="iname">Name:</label>
-         <input type="text" name="name" id="iname"></p>
-    <p><label for="isurname">Surname:</label>
-         <input type="text" name="surname" id="isurname"></p>
+         <input type="text" name="name" id="iname" required placeholder="Username"></p>
+    
+    <p><label for="ipass">Password:</label>
+         <input type="password" name="pass" id="ipass" required minlength="8" ></p>
+   
     <p><input type="submit" value="Send"></p>
 </form>
 </body>
