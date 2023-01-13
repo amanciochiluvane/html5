@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+ <form action="cadastro.php" method="post" autocomplete="off">
+
+    <p>
+        <label for="iname"> Name:</label> 
+        <input type="text" name="name" id="iname" placeholder="max 20 caracteres" required maxlength="20">
+    </p>
+
+    <p>
+        <label for="iemail"> Email:</label>
+        <input type="email" name="email" id="iemail" required>
+    </p>
+
+    <p>
+        <label for="iplace">Place of birth:</label>
+        <input type="text" name="place" id="iplace" required>
+    </p>
+
+    <p>
+        <label for="idate">Date of birth</label>
+        <input type="date" name="date" id="idate" required>
+    </p>
+    
+    <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clean">
+    </p>
+
+
+
+ </form>   
+</body>
+</html>

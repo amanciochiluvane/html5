@@ -1,1 +1,1 @@
-Os dados foram enviados!
+The date are already submited!
