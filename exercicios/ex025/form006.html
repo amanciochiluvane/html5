@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p>
+<label for="iyear">Year of birth:</label>
+<input type="number" name="year" id="iyear" oninput="iage.innerHTml=calcage()">
+</p>
+
+<p>
+<label for="iage">Your actual age is:</label>
+<output id="iage"></output>
+</p>
+
+<script>
+function calcage(){
+    let actual=new Date().getFullYear()
+    iage.innerHTML=actual-iyear
+}
+
+</script>
+</body>
+</html>

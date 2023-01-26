@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>
+    Exemplo de formulário
+</h1>
+
+    <form action="cadastro.php" method="post">
+        <p>
+        <label for="istate" >Province:</label>
+        <select name="state" id="istate"  >     
+            <option value="">--Escolha--</option>
+            <optgroup label="Regiao sul">
+                <option value="MPM">Maputo</option>
+                <option value="GZ">Gaza</option>
+                <option value="IH">Inhambane</option>
+            </optgroup>
+        
+        </select>
+    </p>
+    <p>
+    <label for="iocp">Ocupation</label>
+    <input type="text" name="ocp" id="icp" list="ilis">
+    
+    <datalist id="ilis">
+        <option >Teacher</option>
+        <option >Cooker</option>
+    </datalist>
+    </p>
+    
+    <input type="submit" value="Send">
+
+
+        
+    </form>
+
+
+</body>
+</html>
