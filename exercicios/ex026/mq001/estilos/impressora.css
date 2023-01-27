@@ -1,0 +1,9 @@
+menu{
+    display: none;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+main::after{
+content: 'Este artigo foi impresso em 2023';
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: antiquewhite;
+    margin-top: 0px;
+}
+header li{
+    display: inline-block;
+    background-color:darkkhaki;
+}
+h1 ,h2{
+    text-align: center;
+}
+main{
+    width: 50vw;
+    margin: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
