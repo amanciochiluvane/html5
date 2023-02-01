@@ -1,5 +1,5 @@
 @media  screen and (min-width:760px) and (max-width:992px) {
-body{
+html{
     background-image: url(../imagens/back-tablet.jpg);
 }
 
@@ -13,3 +13,33 @@ img#tablet{
 }
 
 }
+@media  screen and (min-width:992px) and (max-width:1200px) {
+    html{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    
+    img#phone{
+        display: none;
+    }
+    
+    img#pc{
+        display: block;
+        margin:auto;
+    }
+    
+    }
+    @media  screen and (min-width:1200px) {
+        html{
+            background-image: url(../imagens/back-tv.jpg);
+        }
+        
+        img#phone{
+            display: none;
+        }
+        
+        img#tv{
+            display: block;
+            margin:auto;
+        }
+        
+        }
