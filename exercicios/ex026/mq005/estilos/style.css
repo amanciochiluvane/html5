@@ -7,6 +7,7 @@ html{
     background-color:lightgray}
 header{
     background-color: rgba(105, 105, 105, 0.608);
+    
 }
 header>h1{
 text-align: center;
@@ -14,32 +15,31 @@ text-align: center;
 menu{
     display: none;
 }
-span{
+div#burguer{
     text-align: center;
-    width: 100vw;
     display: block;
     background-color: rgb(17, 16, 16);
     color: white;
     padding: 8px;
 }
-span:hover{
+div#burguer:hover{
     background-color: white;
     color: black;
 }
 
-li{
-
-text-decoration: none; 
-text-align: center;
+li>a{
+    
+    text-decoration: none; 
+    
+    color: aliceblue;
 
 
 }
-li>a{
+li{
+    
     display: block;
-    width: 100vw;
     padding: 10px;
-    text-decoration: none;
-    color: aliceblue;
+    text-align: center; 
     background-color: rgba(0, 0, 0, 0.368);
     border-top: 2px solid  rgba(105, 105, 105, 0.754);
 }
@@ -54,6 +54,6 @@ h2{
     text-align: center;
     
 }
-li>a:hover{
+li:hover{
     background-color: rgba(211, 211, 211, 0.575);
 }
